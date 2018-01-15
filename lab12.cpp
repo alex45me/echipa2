@@ -92,7 +92,7 @@ float x1,x2,y1,y2;
 
     cin>>y2;
 
-    z1 = complex(x1,y1);
+    z1 = complex(x1,y1);//Comentariu
     z2 = complex(x2,y2);
     sum = sum.adunare(z1,z2);
     cout<<"Suma:"<<sum.getReal()<<"+"<<sum.getImag()<<"i\n";
