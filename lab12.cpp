@@ -130,4 +130,4 @@ float x1,x2,y1,y2;
     cout<<str;
 return 0;
 }
-//comentariu aici
+//comentariu schimbat
