@@ -1,4 +1,5 @@
 lista taskuri
 
-1. alex contributie
-2. jianu contributie 
+1. alex - surasa main
+2. jianu - clasa Complex
+3.teodora - functii clasa complex plus main completare
