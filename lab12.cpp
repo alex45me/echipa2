@@ -99,5 +99,34 @@ float x1,x2,y1,y2;
 
     inm = inm.inmultire(z1,z2);
     cout<<"Produsul:"<<inm.getReal()<<"+"<<inm.getImag()<<"i\n";
+    
+        cout<<"^ Re(z)=";
+    cin>>x1;
+    cout<<"^ Im(z)=";
+    cin>>y1;
+    z1 = complex(x1,y1);
+    cout<<"^?";
+    cin>>n;
+    prod = prod.putere(z1,n);
+    cout<<"Rezultat:\n"<<prod.getReal()<<"+"<<prod.getImag()<<"i\n";
+
+    complex ok;
+    ok = ok.equals(z1,z2);
+
+    cout<<"fct egalitate\n";
+
+    if(ok.getReal())
+        cout<<z1.getReal()<<"+"<<z1.getImag()<<"i si "<<z2.getReal()<<"+"<<z2.getImag()<<"i sunt egale\n";
+    else
+        cout<<z1.getReal()<<"+"<<z1.getImag()<<"i si "<<z2.getReal()<<"+"<<z2.getImag()<<"i NU sunt egale\n";
+
+    cout<<"Re(z)=:";
+    cin>>x1;
+    cout<<"Im(z)=";
+    cin>>y1;
+    z1 = complex(x1,y1);
+    string str;
+    str = z1.toString(z1);
+    cout<<str;
 return 0;
 }
